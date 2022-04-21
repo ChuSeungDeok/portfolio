@@ -1,0 +1,21 @@
+/* Global */
+:root {
+    /* Color */
+--color: #ffffff;
+--color-light-white: #eeeeee;
+--color-dark-white: #dbdbdb;
+--color-background : #4c4177;
+--color-black: #000000;
+--color-dark-grey: #616161;
+--color-light-grey: #7c7979;
+--color-grey: #616161;
+--color-blue: #73aace;
+
+    /* Font size */
+--font-large: 48px;
+--font-medium:28px;
+--font-small : 16px;
+--font-micro: 14px;
+    /* Font weight */
+    /* Size */
+}
