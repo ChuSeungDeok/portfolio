@@ -100,12 +100,13 @@ p {
     color: var(--color-white);
     padding: 16px;
     transition: all 300ms ease-in-out;
+    z-index: 1;
 }
 
 #navbar.navbar--dark{
     background-color: var(--color-dark-blue);
     padding: 8px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .navbar__logo{
