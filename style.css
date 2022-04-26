@@ -91,14 +91,22 @@ p {
 
 /* Navbar */
 #navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-dark-blue);
+    background-color: transparent ;
     align-items: center;
     color: var(--color-white);
     padding: 16px;
+    transition: all 300ms ease-in-out;
 }
 
+#navbar.navbar--dark{
+    background-color: var(--color-dark-blue);
+    padding: 8px;
+    opacity: 0.8;
+}
 
 .navbar__logo{
     font-size: var(--font-medium);
@@ -139,7 +147,7 @@ p {
     padding: 40px;
     text-align: center;
     background-color: var(--color-dark-blue);
-    margin-top: 30px;
+    padding-top: 100px;
 }
 
 .home__avatar{
@@ -243,7 +251,7 @@ p {
     width: 2px;
     top: -50px;
     bottom: -50px;
-    background-color: #000;
+    background-color: var(--color-dark-grey);
     display: none;
 }
 
@@ -255,7 +263,7 @@ p {
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    background-color: #000;
+    background-color:var(--color-dark-grey);
     left: 50%;
     transform: translateX(-50%);
 }
@@ -275,7 +283,7 @@ p {
     padding: 1rem;
     border-radius: 1rem;
     align-items: center;
-    min-height: 300px;
+    min-height: 150px;
 
 }
 
@@ -290,7 +298,7 @@ p {
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    background-color: #000;
+    background-color: var(--color-dark-grey);
     left: 50%;
     top: 20%;
     transform: translateX(-50%);
@@ -361,7 +369,7 @@ p {
     color: var(--color-white);
     border-radius: var(--size-border-radius);
     font-size: var(--font-regular);
-    padding: 8px 48px;
+    padding: 8px 8px 8px 40px;
     margin: 15px;
 }
 
