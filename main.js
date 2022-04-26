@@ -28,6 +28,16 @@ contactMeBtn.addEventListener('click', ()=>{
     scrollIntoView('#contact');
 });
 
+
+// 스크롤 down할떄 천천히 흐려지게 만들기
+const home = document.querySelector('.home__container');
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener('scroll',()=>{
+    home.style.opacity = 1 - window.scrollY / homeHeight;
+});
+
+
+
 // 스크롤 함수
 function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);

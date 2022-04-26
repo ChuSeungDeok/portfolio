@@ -476,6 +476,7 @@ p {
     transform: scale(1.1);
     color: var(--color-light-blue);
 }
+/* Scroll */
 
 /* 화면 크기 768px */
 @media screen and (max-width: 768px){
