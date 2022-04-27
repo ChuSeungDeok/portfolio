@@ -1,7 +1,7 @@
 ## Portfolio
 ## 페이지 : https://chuseungdeok.github.io/portfolio/
 
-<img width="70%" src="https://user-images.githubusercontent.com/101231647/165508323-b9e66445-70ee-459f-bcae-aef79c392483.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/101231647/165508323-b9e66445-70ee-459f-bcae-aef79c392483.png"/>
 
 ## 사용기술 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
