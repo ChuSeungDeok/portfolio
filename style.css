@@ -368,7 +368,7 @@ p {
     border-radius: var(--size-border-radius);
     font-size: var(--font-regular);
     padding: 8px 8px 8px 40px;
-    margin: 15px;
+    
 }
 
 .category_btn.selected,
@@ -487,12 +487,27 @@ p {
     transform: scale(1.1);
     color: var(--color-light-blue);
 }
+
+.home__contact:hover {
+    background-color: var(--color-blue);
+}
 /* Scroll */
 
 /* 화면 크기 768px */
 @media screen and (max-width: 768px){
+    :root {
+    /* Font size */
+    --font-large: 30px;
+    --font-medium: 18px;
+    --font-small : 14px;
+    --font-micro: 12px;
+
+    }
     .navbar__toggle-btn{
         display: block;
+        top: 16px;
+        right: 16px;
+        font-size: var(--font-medium);
     }
     #navbar{
         flex-direction: column;
@@ -501,6 +516,10 @@ p {
     }
 
     .navbar.navbar--dark{
+        padding: 16px;
+    }
+
+    .section_2{
         padding: 16px;
     }
 
@@ -514,11 +533,18 @@ p {
         display: block;
     }
 
+    .home__avatar{
+        width: 250px;
+        height: 250px;
+    }
+
     .about__majors{
         flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 0px;
     }
     .major{
-        margin-bottom: 38px;
+        margin-bottom: 30px;
     }
     
     .skillset{
@@ -528,4 +554,14 @@ p {
     .project{
         flex-grow: 1;
     }
+    p{
+        font-size: var(--font-micro);
+    }
+    .timeline_img{
+        display: none;
+    }
+    .category_btn{
+        width: 100%;
+    }
+
 }
