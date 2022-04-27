@@ -117,7 +117,7 @@
                     <div class="content">
                         <img src="imgs/계명대학교_로고.png" alt="">
                         <h2>계명대학교 편입</h2>
-                        <p>2017년 3월 계명대학교 MIS(경영정보학과) 편입</p>
+                        <p>2017년 3월 계명대학교 MIS(경영정보학과) 편입<br>데이터분석, 데이터베이스 분석, 컴퓨터활용, IT/IS 운영과 정책 등 교육과정 수료</p>
                     </div>
                 </div>
     
@@ -204,42 +204,44 @@
     </section>
     <!-- Work -->
     <section id="work" class="section_3">
+    <div class="section_container">
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work_categories">
-            <button class="category_btn">ALL<span class="category_count">5</span></button>
-            <button class="category_btn">REACT<span class="category_count">2</span></button>
-            <button class="category_btn">JAVASCRIPT<span class="category_count">3</span></button>
+            <button class="category_btn selected" data-filter="*" >ALL<span class="category_count">5</span></button>
+            <button class="category_btn" data-filter="react">REACT<span class="category_count">2</span></button>
+            <button class="category_btn" data-filter="javascript">JAVASCRIPT<span class="category_count">3</span></button>
+        </div>
             <div class="work_projects">
-                <a href="https://github.com/ChuSeungDeok/portfolio" class="project" target="blank">
+                <a href="https://github.com/ChuSeungDeok/portfolio" class="project" target="blank" data-type="javascript">
                     <img class="project_img" src="imgs/projects/portfolio pic.png" alt="Youtube">
                     <div class="project_description">
                         <h3>Portfolio</h3>
                         <span>HTML, CSS, JAVASCRIPT</span>
                     </div>
                 </a>
-                <a href="https://github.com/ChuSeungDeok/react_youtube" class="project" target="blank">
+                <a href="https://github.com/ChuSeungDeok/react_youtube" class="project" target="blank" data-type="react">
                     <img class="project_img" src="imgs/projects/youtube.png" alt="Youtube">
                     <div class="project_description">
                         <h3>Youtube</h3>
                         <span>Clone coding with React</span>
                     </div>
                 </a>
-                <a href="https://github.com/ChuSeungDeok/bugs-game" class="project" target="blank">
+                <a href="https://github.com/ChuSeungDeok/bugs-game" class="project" target="blank" data-type="javascript">
                     <img class="project_img" src="imgs/projects/bugs.png" alt="Youtube">
                     <div class="project_description">
                         <h3>Bugs-game</h3>
                         <span>HTML, CSS, JAVASCRIPT, Json</span>
                     </div>
                 </a>
-                <a href="https://github.com/ChuSeungDeok/shoppingmall" class="project" target="blank">
+                <a href="https://github.com/ChuSeungDeok/shoppingmall" class="project" target="blank" data-type="react">
                     <img class="project_img" src="imgs/projects/shop.png" alt="Youtube">
                     <div class="project_description">
                         <h3>Shoppingmall</h3>
                         <span>React, JAVASCRIPT, CSS, SASS, Ajax</span>
                     </div>
                 </a>
-                <a href="https://github.com/ChuSeungDeok/mini-shoppingmall" class="project" target="blank">
+                <a href="https://github.com/ChuSeungDeok/mini-shoppingmall" class="project" target="blank" data-type="javascript">
                     <img class="project_img" src="imgs/projects/minishop (2).png" alt="Youtube">
                     <div class="project_description">
                         <h3>Mini-Shoppingmall</h3>
@@ -247,7 +249,7 @@
                     </div>
                 </a>
             </div>
-        </div>
+    </div>
     </section>
 
     <!-- Contact --> 
